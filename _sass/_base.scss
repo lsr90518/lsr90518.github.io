@@ -204,3 +204,10 @@ pre {
         }
     }
 }
+
+/**
+ * post-list
+ */
+.post-list>li{
+	border-bottom: 2px dotted $grey-color-light;
+}

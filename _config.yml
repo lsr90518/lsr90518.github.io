@@ -1,20 +1,30 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# Permalinks
+permalink:        pretty
 
-# Site settings
-title: 我是刘松然
-email: lb90518@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-github_username:  lsr90518
+# Setup
+url:              http://lsr90518.github.io
 
-# Build settings
-markdown: kramdown
+# Set to '' in case of hosting on `http://<your-github-name>.github.io`
+baseurl:          ''
+
+title:            FluffyLiu
+
+# Markdown enabled, however don't use more than one paragraph (enforced by `>`)
+description:      >
+  读书笔记，技术博客，欢迎与我交流，互动。
+  lb90518@gmail.com.
+
+# The tags listed as entries in the sidebar
+sidebar_tags:     [tech, review]
+
+# Fallback image and color if not overwritten for tag or post
+image:            /public/img/nap.jpg
+color:            '#A85641'
+
+author:
+  name:           '刘松然'
+  github:         lsr90518
+  photo:          https://avatars0.githubusercontent.com/u/4392072?v=3&s=460
+
+  # Markdown enabled, can use multiple paragraphs (enabled by `|`)
+  about:
