@@ -7,3 +7,4 @@ tags: [review]
 
 * [springboot guru](https://springframework.guru/category/spring/spring-boot/)
 * [How SpringBoot AutoConfiguration magic works?](https://www.javacodegeeks.com/2016/03/springboot-autoconfiguration-magic-works.html)
+* [How Spring Boot Autoconfiguration Magic Works](https://dzone.com/articles/how-springboot-autoconfiguration-magic-works)

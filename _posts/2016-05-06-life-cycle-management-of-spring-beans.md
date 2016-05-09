@@ -89,6 +89,10 @@ public class TestBeanWithClassLoaderAware implements BeanClassLoaderAware
 
 每一次，客户端Application可以通过被加载的Bean来获得Class Loader的内容。在上面的例子中，TestBeanWithClassLoaderAware类实现了`BeanClassLoaderAware`并且重写了`setBeanClassLoader()`方法。这样的话Bean Factory就会传递一个`ClassLoader`对象，作为参数到`setBeanClassLoader()`方法中去。
 
+### 3.3) Bean Factory Aware Interface
+
+Bean Factory对象是需要对加载和生成的Bean实例负责。
+
 [origin-link]:http://www.javabeat.net/life-cycle-management-of-a-spring-bean/
 [prerequisite-link]:http://www.javabeat.net/introduction-to-spring-mvc-web-framework-web-tier/
 [also-read-1-link]:http://www.javabeat.net/introduction-to-spring-mvc-web-framework-web-tier/
