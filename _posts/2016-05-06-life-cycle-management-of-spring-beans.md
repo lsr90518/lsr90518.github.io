@@ -25,7 +25,7 @@ tags: [review]
 
 一个Spring Bean代表一个带有有用操作的POJO组件，所有的Spring Beans都存在于Spring容器中，也就是所谓的IOC容器(IOC Container)。Spring Framework是透明的，也因此隐藏了大部分复杂的结构与Spring容器与Spring Bean之间的通信。这一节列举出了发生在Bean开始实例化到交给Application之间发生的行为的序列。
 
-![Spring Bean的生命周期](/public/img/spring-bean-life-cycle.png "生命周期")
+![Spring Bean的生命周期](/public/img/spring-bean-life-cycle.jpg "生命周期")
 
 1. Bean容器在配置文件中找到Bean的定义。
 2. Bean容器创建一个使用Java反射API(Java Reflection API)创建一个实例。
