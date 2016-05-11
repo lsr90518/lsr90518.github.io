@@ -28,3 +28,6 @@ author:
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:
+
+gems:
+  - jekyll-seo-tag
