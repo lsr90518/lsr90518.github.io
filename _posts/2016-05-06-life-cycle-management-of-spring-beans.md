@@ -12,7 +12,7 @@ tags: [review]
 
 ## 1) 前言
 
-这篇文章将会简洁地说明一下，一个Spring Bean在Spring的IOC(Inversion of Control)容器中是怎么被管理的。一个Spring Bean只要他被Application需要，他就会被放入在容器中。各种各样的生命周期接口(ife-cycle interfaces)和方法都将会被IOC容器调用。读这篇文章的前提条件，是最好先看一下[Introduction to Spring Web Framework][prerequisite-link]。
+这篇文章将会简洁地说明一下，一个Spring Bean在Spring的IOC(Inversion of Control)容器中是怎么被管理的。一个Spring Bean只要他被Application需要，他就会被放入在容器中。各种各样的生命周期接口(life-cycle interfaces)和方法都将会被IOC容器调用。读这篇文章的前提条件，是最好先看一下[Introduction to Spring Web Framework][prerequisite-link]。
 
 也同样可以阅读一下以下4篇文章
 
